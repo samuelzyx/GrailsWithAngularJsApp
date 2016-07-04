@@ -1,6 +1,4 @@
-# Grails with AngularJs
-
-Grails with AngularJs Profile 
+# Grails with AngularJs Profile 
 
 Admin sites
 
