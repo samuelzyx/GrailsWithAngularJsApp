@@ -1,4 +1,4 @@
-# GrailsWhitAngularJsApp
+# Grails with AngularJs
 
 Grails with AngularJs Profile 
 
