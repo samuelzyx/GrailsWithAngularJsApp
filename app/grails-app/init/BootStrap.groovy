@@ -9,7 +9,7 @@ class BootStrap {
         Environment.current == Environment.DEVELOPMENT||
                 Environment.current == Environment.TEST) {
             Role admin = new Role("ROLE_ADMIN").save()
-            User user = new User("admin@tequilasoft.com", "sstequila").save()
+            User user = new User("zyxsamys@gmail.com", "samuel").save()
             UserRole.create(user, admin, true)
 
             new Template(appName: 'SustainableSite',
