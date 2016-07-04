@@ -1,0 +1,10 @@
+import grails.core.*
+import grails.util.*
+
+model {
+	GrailsApplication grailsApplication	
+}
+
+json {
+	appversion grailsApplication.metadata.getApplicationVersion()
+}

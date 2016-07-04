@@ -1,0 +1,23 @@
+import grails.core.*
+import grails.util.*
+import app.*
+
+model {
+	Template template
+}
+
+json {
+    id template.id
+    appName template.appName
+    textH1 template.textH1
+    textP template.textP
+    urlIcon template.urlIcon
+    urlIco template.urlIco
+    sizeSlide template.sliders.size()
+    slides template.sliders, { Slider slider ->
+        id slider.id
+        headerT slider.headerT
+        urlImage slider.urlImage
+        text slider.text
+    }
+}
